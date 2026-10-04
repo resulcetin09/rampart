@@ -1,0 +1,18 @@
+{
+  "name": "rampart-scan",
+  "version": "0.1.0",
+  "description": "Grade a website's HTTP security headers, cookies, and TLS configuration — and tell you exactly what to fix.",
+  "type": "module",
+  "bin": { "rampart": "src/cli.js" },
+  "exports": "./src/checks.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["security", "http-headers", "hsts", "csp", "tls", "hardening", "web-security"],
+  "author": "Resul Çetin",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/resulcetin09/rampart" },
+  "dependencies": {}
+}
